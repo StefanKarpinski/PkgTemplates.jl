@@ -1,5 +1,7 @@
 # Don't move this line from the top, please. {{X}} {{Y}} {{Z}}
 
+@info "Running plugin tests"
+
 struct BasicTest <: PT.BasicPlugin
     a::String
     b::Bool

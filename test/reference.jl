@@ -1,3 +1,5 @@
+@info "Running reference tests"
+
 const STATIC_FILE = joinpath(@__DIR__, "fixtures", "static.txt")
 const STATIC_DOCUMENTER = [
     PackageSpec(; name="DocStringExtensions", version=v"0.8.1"),
